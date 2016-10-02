@@ -1,0 +1,6 @@
+{
+  "directory_name": "",
+  "otp_app_name": "",
+  "module_name": "{{ cookiecutter.otp_app_name.split('_')|map('title')|join('') }}",
+  "include_supervisor": false
+}
